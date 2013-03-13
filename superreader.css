@@ -1,0 +1,340 @@
+body,
+#viewer-container,
+.scroll-tree li {
+	background:#222;
+}
+#entries .entry, 
+#entries.list .entry-container,
+#entries.cards .entry,
+.selector:hover, #lhn-selectors .selector:hover,
+.card,
+.card-common,
+.scroll-tree li a:hover {
+	background:#333 !important;
+}
+#chrome.page-view #viewer-page-container,
+.tab-contents,
+#directory-box .tab-group-contents,
+.tab-group-headers,
+#directory-box .tab-group {
+	background:#111;
+}
+
+/* 
+		hide top bars
+		hide post share/fav buttons
+		hide the viewer settings/options bar toggle
+		hide "All Items"/title bar
+		hide the scrollbar
+		hide little icons next to post titles
+		hide little popout icon
+		hide entry date
+ */
+#gb,
+.card-actions,
+#chrome-fullscreen-top-toggle,
+#title-and-status-holder,
+::-webkit-scrollbar,
+.entry-icons-placeholder,
+.entry-title-go-to,
+.entry .entry-date {
+	display:none !important;
+}
+
+.lhn-section,
+#viewer-header {
+	background:none;
+}
+.scroll-tree li a .name-unread,
+#nav a, #nav a .text, #nav .link,
+.scroll-tree li a .name,
+.copyright {
+	color:#aaa;
+}
+.scroll-tree li a.tree-link-selected .name, 
+.scroll-tree li a.tree-link-selected:hover .name,
+#current-entry .entry-container .entry-body a,
+#logo-section #logo-link,
+#lhn-selectors .selected a span, 
+#lhn-selectors .selected a:hover span,
+.read .entry-container .entry-body a,
+.entry-container .entry-body a,
+#nav .selected a, #nav .selected a .text,
+#recent-activity .recent-stream-title {
+	color:#6DC8EC;
+}
+#scrollable-sections-holder,
+#logo-section #logo-link,
+.jfk-button-primary,
+.overview-section-header,
+.entry .entry-title {
+		/* note: going to assume Gibson is installed as a system font;
+			webfonts don't seem to work with Stylish
+	*/
+	font-family: 'Gibson', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.lhn-section-secondary li a.tree-link-selected,
+.lhn-section-secondary li a,
+.scroll-tree .lhn-section-primary,
+#sub-tree-header,
+#overview-selector,
+#lhn-selectors .selector.selected,
+#lhn-selectors .selector,
+#overview-selector.selected,
+#sub-tree-header.selected {
+	border-left:none;
+}
+
+.card, .card-common {
+	border:1px solid #444;
+	box-shadow:none;
+}
+
+#current-entry .card {
+	border-left-color:#444;
+}
+#entries.cards .entry {
+	margin:4em;
+}
+
+
+body,
+.read .entry-container .entry-body,
+#current-entry.read .entry-container .entry-body {
+	color:#eee;
+}
+#current-entry .entry-container a.entry-source-title,
+.read .entry-container a.entry-source-title,
+.entry-container a.entry-source-title {
+	color:#666;
+	border-bottom:1px dotted #666;
+}
+
+#current-entry .entry-container .entry-title,
+#current-entry .entry-container .entry-title a, 
+#current-entry .entry-container a.entry-post-author-name,
+.read .entry-container .entry-title,
+.read .entry-container .entry-title a,
+a, a:visited, .link,
+#viewer-header .goog-button-body,
+.goog-button-body {
+	color:#fff;
+}
+
+/* make the viewing container take the full height */
+html,
+body,
+#main,
+#chrome,
+#chrome-viewer-container,
+#chrome-viewer,
+#viewer-container,
+#viewer-entries-container {
+	height:100% !important;
+}
+
+#viewer-header-container,
+#logo-section {
+	border-bottom:none;
+}
+
+#entries {
+	border-top:none;
+	width:100%;
+	padding:0 !important;
+}
+.entry .entry-body {
+	font-size:1.2em;
+}
+.entry .entry-title {
+	font-size:3.4em !important;
+	max-width:none;
+	font-weight:600;
+	text-align:center;
+	margin:1em auto 0 auto;
+	max-width:18em;
+}
+.samedir .entry .card-common .entry-container .entry-date {
+	float:none;
+}
+.entry .entry-author,
+.entry .entry-date {
+	text-align:center;
+	margin:1em 0 4em 0;
+}
+.entry .entry-body img {
+	display:block;
+	margin:0 auto;
+	max-width:100%;
+	width:auto !important;
+	height:auto !important;
+	margin-bottom:2em;
+}
+.entry .item-body {
+	max-width:40em !important;
+	margin:0em auto;
+}
+.entry .entry-body p {
+	line-height:1.4;
+	margin:2em auto;
+}
+.entry .entry-body {
+	max-width:none;
+}
+
+
+
+.goog-flat-menu-button,
+.goog-flat-menu-button:hover,
+.jfk-button-standard,
+.jfk-button-standard:hover,
+.goog-button-base-inner-box,
+.goog-button-base-inner-box:hover,
+.jfk-button-standard.jfk-button-checked, 
+.jfk-button-standard.jfk-button-checked:hover, 
+.jfk-button-standard.jfk-button-clear-outline.jfk-button-checked
+.jfk-button-standard.jfk-button-clear-outline.jfk-button-checked:hover,
+.goog-button-base:hover .goog-button-base-inner-box,
+.goog-button-base,
+.goog-button-base-inner-box,
+.goog-button-base:focus .goog-button-base-outer-box,
+.goog-button-base:focus .goog-button-base-inner-box
+.jfk-button-primary,
+.tab-header,
+#directory-contents .tab-header-selected {
+	-webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+	background:#333;
+	color:#fff !important;
+	border:1px solid #555;
+	cursor:pointer;
+	font-family: 'Gibson', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	font-weight:500;
+	letter-spacing:0.1em;
+	border-radius:0.2em;
+}
+.goog-button-base-outer-box,
+#stream-prefs-menu,
+.preview-subscribe-button,
+#directory-box .tab-group,
+.feed-result-row .result .subscribe {
+	border:none !important;
+}
+
+.jfk-button-primary,
+.jfk-button-primary:active,
+.jfk-button-primary:hover,
+ #directory-contents .tab-header-selected,
+.tab-header {
+	font-weight:600;
+	letter-spacing:0.1em;
+	text-transform: uppercase;
+	cursor:pointer;
+}
+
+#logo-section #logo-link,
+.subscribe-button {
+	text-transform: uppercase;
+	font-weight:600;
+	letter-spacing:0.2em;
+	padding:0;
+	background:none;
+}
+
+.jfk-button-primary,
+.jfk-button-primary:active,
+.jfk-button-primary:hover,
+.goog-button-base:active .goog-button-base-inner-box,
+.goog-button-base:hover .goog-button-base-inner-box,
+.goog-button-base-open .goog-button-base-inner-box,
+ #directory-contents .tab-header-selected {
+	border:1px solid #71C7EB;
+	background:#58B7DD;
+	text-shadow:1px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.folder .name-text,
+#reading-list-selector .label,
+#sub-tree-header,
+.scroll-tree li a .name-unread {
+	font-weight:normal;
+}
+
+.scroll-tree li a {
+	-webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#home {
+	background:#f8f8f8;
+}
+
+/* Fix some alignment */
+#home #sections-holder {
+	margin-left:3em;
+}
+#directory-search-results #sections {
+	margin-left:4em;
+}
+#directory-contents {
+	margin-left:2em;
+}
+.overview-section-header {
+	margin-left:3em;
+	text-transform:uppercase;
+}
+
+#home a, #home a:visited, #home .link {
+	color:#111;
+}
+
+#viewer-header {
+	box-shadow:0px 1px 6px -1px rgba(0,0,0,0.4);
+	z-index:100;
+}
+.lhn-section-footer {
+	border-bottom:1px solid #333;
+}
+
+
+.tree-item-action-container,
+a:hover .tree-item-action-container,
+.scroll-tree li a.menu-open {
+	background:#444;
+}
+
+.section-menubutton {
+	right:5px;
+}
+
+#directory-search-results {
+	color:#222;
+}
+
+
+.preview-interruption,
+.preview-interruption-related-streams {
+	background:#1b1b1b;
+	border:1px solid #333;
+}
+
+.tab-group-headers {
+	margin-left:1.1em;
+	font-size:0.9em;
+}
+
+#quick-add-success {
+	padding:1em;
+	background:#111;	
+}
+#no-entries-msg {
+	background:#111;
+	border:1px solid #333;
+}
